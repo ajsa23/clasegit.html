@@ -1,2 +1,98 @@
-# Auto detect text files and perform LF normalization
+<html>
+
+
+
+<head>
+<style>
+	
+	body {
+		 background-color: yellow;
+		background-image:url("imagenes/ferrari.jpg");
+		background-size: cover;
+
+	}
+</style>
+
+</head>
+
+
+<body>
+
+<h1 style="color:red">Wholesale and Retail Car Sales</h1>
+<p>
+<strong>Ferrari sold a record 13,663 cars in 2023, marking growth in sales and revenue, which reached €5.97 billion. The brand has seen a significant increase in demand for electrified vehicles, with 43% of its registrations in the second half of 2022 being hybrids. Ferrari's strategy is based on limiting production to maintain exclusivity and luxury, which has been key to its sales success and an increase in its share value. </strong></p>
+
+<p><strong>Ferrari S.p.A. is a supercar manufacturer based in Maranello, province of Modena, in the Emilia-Romagna region of Italy. The company is the result of founder Enzo Ferrari's vision to create a luxury and sporty performance touring car brand, building on the successes achieved since the creation of his Scuderia Ferrari motorsport company in 1929.</strong></p>
+
+<h2 style="color:red">PRECIOS DE VALOR EN EL MERCADO</h2>
+
+<table style="border:10px solid black;">
+	<tr>
+  <th>MARCAS</th>
+ <th>AÑO</th>
+ <th>PRECIOS</th>
+
+</tr>
+
+<tr>
+
+<td>ferrari</td>
+<td>2022</td>
+<td>1.900.000</td>
+
+</tr>
+
+<tr>
+
+<td>lamboginit</td>
+<td>2025</td>
+<td>2.000.000</td>
+
+</tr>
+
+<tr>
+	
+<td>susuki</td>
+<td>2029</td>
+<td>3.000.000</td>
+
+</tr>
+
+
+</table>
+
+<div style="text-align: left;">
+	<button  style="background-color: greenyellow;" onclick="reproducirPausar()">reproducir/pausar</button><br><br>
+  <button   style="background-color: red;" onclick="aumentar()">aumentar</button><br><br>
+ <button   style="background-color: blueviolet;" onclick="fff()">disminuir</button><br><br>
+<video id="video1" width="320" height="240">	 
+<source src="miauto.mp4" type="video/mp4"><br><br>
+</video>
+</div>
+<script>
+	
+var mivideo = document.getElementById("video1");
+function reproducirPausar(){
+	if (mivideo.paused) {
+		mivideo.play();
+	}else{
+		mivideo.pause();
+	}
+}
+
+function aumentar(){
+	mivideo.width = 1000;
+}
+
+function disminuir(){
+	mivideo.width = 2000;
+}
+</script>
+
+
+
+	</body>
+
+
+</html># Auto detect text files and perform LF normalization
 * text=auto
